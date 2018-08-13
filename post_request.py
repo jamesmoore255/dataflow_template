@@ -14,9 +14,8 @@ GCSPATH = "gs://{bucket}/dataflow/{template}".format(bucket=BUCKET, template=TEM
 BODY = {
     "jobName": "{jobname}".format(jobname=JOBNAME),
     "parameters": {
-        "path": "gs://{bucket}/demo/demo_error.csv".format(bucket=BUCKET),
-        "organization": "demo_error",
-        "campaign": "demo_error"
+        "path": "gs://{bucket}/demo/file.csv".format(bucket=BUCKET),
+        "source": "source_name",
     },
     "environment": {
         "tempLocation": "gs://{bucket}/dataflow/temp".format(bucket=BUCKET),
