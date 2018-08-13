@@ -15,8 +15,7 @@
 
 -Upon launching the template within the dataflow console, first it will be necessary to input the template in the custom template gcs path:
 
-
-    -gs://beta-com.appspot.com/dataflow/contact-import
+    -gs://path/to/template
     
 within the Additional parameters it will be possible to input:
 
@@ -28,4 +27,4 @@ within the Additional parameters it will be possible to input:
 
 Requires Authentication
 
-An Example can be seen [here](#)
+An Example can be seen [here](https://github.com/jamesmoore255/dataflow_template/blob/master/post_request.py)
