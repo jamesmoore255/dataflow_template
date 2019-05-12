@@ -1,4 +1,4 @@
-# connect-dataflow
+# dataflow-template
 
 ### A templatable data cleaning pipeline, extracting the path to a csv file then cleaning the given information
 
